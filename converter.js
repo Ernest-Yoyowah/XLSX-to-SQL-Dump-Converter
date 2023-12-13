@@ -29,7 +29,7 @@ function generateSqlDump(rows) {
   const header = rows[0];
   const dataRows = rows.slice(1);
 
-  const tableName = "applicants"; // Replace with your actual table name
+  const tableName = "applicants";
 
   const columns = header.map((col) => `\`${col}\``).join(", ");
   const values = dataRows
