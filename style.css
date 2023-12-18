@@ -59,6 +59,8 @@ button:hover {
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   form {
-    margin: 20px 19px 10px;
+    margin: auto;
+    margin-top: 10vh;
+    max-width: 80%;
   }
 }
