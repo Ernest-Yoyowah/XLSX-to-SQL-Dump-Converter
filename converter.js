@@ -100,6 +100,10 @@ function generateSqlDump(rows) {
     NIGERIA: 126,
     BURKINA: 24,
     BENIN: 18,
+    GUINEA: 51,
+    "BURKINA FASO": 24,
+    "Ivory Coast": 79,
+    "COTE D'IVOIRE": 79,
   };
 
   // Function to get the mapped ID for a value
