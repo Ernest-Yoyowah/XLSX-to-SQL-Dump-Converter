@@ -1,3 +1,5 @@
+// import { programMapping, genderMapping, nationalityMapping } from "./mappings";
+
 function convertFile() {
   const fileInput = document.getElementById("xlsxFile");
   const outputDiv = document.getElementById("output");
