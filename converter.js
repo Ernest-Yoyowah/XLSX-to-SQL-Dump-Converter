@@ -92,6 +92,7 @@ function generateSqlDump(rows) {
     "BSC INFORMATION SYSTEMS (TOP UP)": 46,
     "BSC INTERNET OF THINGS AND BIG DATA": 47,
     "BSC NETWORKING AND SYSTEMS ADMINISTRATION": 48,
+    "CITY & GUILDS PROFESSIONAL": 49,
   };
 
   const genderMapping = {
