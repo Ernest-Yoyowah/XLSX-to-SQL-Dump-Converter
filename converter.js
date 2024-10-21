@@ -7,6 +7,7 @@ function convertFile() {
     outputDiv.innerText = "Please choose an XLSX file.";
     return;
   }
+  
   const reader = new FileReader();
   reader.onload = function (e) {
     const data = new Uint8Array(e.target.result);
